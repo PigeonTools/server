@@ -1,5 +1,11 @@
 name: CI Checks
 
+# Grant explicit permissions for the GITHUB_TOKEN
+permissions:
+  pull-requests: write
+  contents: read
+  issues: write
+
 on:
   push:
     branches: [main]
