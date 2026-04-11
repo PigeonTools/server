@@ -4,7 +4,7 @@ import { Dice } from '../../src/diceAPI/dice.ts';
 
 describe('Test Framework', () => {
   it('should successful execute passing test', () => {
-    assert(true);
+    assert(false);
   })
 })
 

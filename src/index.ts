@@ -10,10 +10,3 @@ app.get('/', (_, res) => {
 app.listen(port, () => {
   console.log(`Listening on ${port}`)
 })
-
-enum test {
-  test,
-  this,
-  failure
-}
-
