@@ -2,12 +2,6 @@ import assert from 'node:assert/strict'
 import {describe, it} from 'node:test'
 import { Dice } from '../../src/diceAPI/dice.ts';
 
-describe('Test Framework', () => {
-  it('should successful execute passing test', () => {
-    assert(false);
-  })
-})
-
 describe('single dice', () => {
   it('repeated rolls on single dice return same result', () => {
     const dice = new Dice(1_000_000_000);
