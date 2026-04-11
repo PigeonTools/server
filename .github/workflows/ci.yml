@@ -1,10 +1,5 @@
 name: CI Checks
 
-permissions:
-  pull-requests: write
-  contents: read
-  issues: write
-
 on:
   push:
     branches: [main]
