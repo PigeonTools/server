@@ -3,6 +3,11 @@ import {describe, it} from 'node:test'
 import { Dice } from '../../src/diceAPI/dice.ts';
 
 describe('single dice', () => {
+  it('should fail', () => {
+    assert(false)
+  })
+
+  
   it('repeated rolls on single dice return same result', () => {
     const dice = new Dice(1_000_000_000);
     const roll1 = dice.roll();
