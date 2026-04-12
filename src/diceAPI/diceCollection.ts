@@ -1,7 +1,7 @@
 import { Dice } from "./dice.ts";
 import type { DiceResult } from "./types.ts";
 
-export class diceCollection {
+export class DiceCollection {
   readonly dice: Dice[];
   result: DiceResult | undefined = undefined;
   
